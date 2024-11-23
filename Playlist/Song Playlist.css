@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Spotify dark background */
+  color: #fff; /* White text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Spotify Wrapper */
+.spotify-wrapper {
+  width: 90%;
+  max-width: 800px;
+  background-color: #1e1e1e; /* Slightly lighter than the background */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+/* Header */
+.spotify-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #282828; /* Darker header */
+  border-bottom: 1px solid #3e3e3e;
+}
+
+.spotify-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #1db954; /* Spotify green */
+}
+
+/* Song List */
+.song-list {
+  padding: 20px;
+}
+
+/* Song Item */
+.song-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.song-item:hover {
+  background-color: #3e3e3e; /* Highlight on hover */
+}
+
+/* Album Art */
+.album-art {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+/* Song Details */
+.song-details {
+  flex-grow: 1;
+}
+
+.song-title {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.artist-name {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #b3b3b3; /* Slightly muted color for artist name */
+}
+
+/* Song Actions */
+.song-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.play-btn,
+.like-btn,
+.lyrics-btn{
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  color: #1db954; /* Spotify green */
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.play-btn:hover,
+.like-btn:hover,
+.lyrics-btn:hover {
+  transform: scale(1.2);
+  color: crimson; 
+}
+
+a {
+  text-decoration: none;
+  color: #1db954;
+}
+
+a :hover {
+  transform: scale(1.2);
+  color: #fff;
+}
+

@@ -1,0 +1,72 @@
+/* Reset some styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Konten mulai dari atas */
+    height: 100vh;
+    padding: 20px;
+}
+  
+  .lyrics-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.1); /* Hijau Spotify */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    margin-top: 200px;
+  }
+  
+  .song-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .artist-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .song-details {
+    color: white;
+  }
+  
+  .song-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .artist-name {
+    font-size: 18px;
+    opacity: 0.8;
+  }
+  
+  .lyrics-label {
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.6;
+    margin-top: 10px;
+  }
+  
+  .lyrics p {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .lyrics p:first-child {
+    margin-top: 0;
+  }
+  
